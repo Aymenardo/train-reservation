@@ -1,0 +1,310 @@
+/* Responsive styles for Railway Reservation System */
+
+/* Base responsive setup */
+@media (max-width: 992px) {
+  .container {
+    padding: 1.5rem;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .hero {
+    padding: 4rem 1.5rem;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .feature-card {
+    flex: 1 1 250px;
+  }
+  
+  .filter-form .form-group {
+    flex: 1 1 150px;
+  }
+  
+  .dashboard-stats {
+    gap: 1rem;
+  }
+  
+  .stat-card {
+    flex: 1 1 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    display: none;
+  }
+  
+  .nav-links.active {
+    display: flex;
+  }
+  
+  .nav-links li {
+    width: 100%;
+  }
+  
+  .nav-links li a {
+    display: block;
+    padding: 0.75rem 0;
+    width: 100%;
+  }
+  
+  .menu-toggle {
+    display: flex;
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+  }
+  
+  .hero {
+    min-height: 350px;
+    padding: 3rem 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+  
+  .search-box {
+    padding: 1.5rem;
+  }
+  
+  .search-form {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .search-form .form-group {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+  
+  .search-form .btn {
+    width: 100%;
+  }
+  
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .feature-card {
+    max-width: 100%;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+  }
+  
+  .footer-section {
+    margin-bottom: 2rem;
+  }
+  
+  .auth-form-container {
+    width: 95%;
+    padding: 1.5rem;
+  }
+  
+  .train-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .train-number {
+    margin-top: 0.5rem;
+  }
+  
+  .train-route {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .station {
+    margin-bottom: 1rem;
+  }
+  
+  .route-line {
+    width: 2px;
+    height: 50px;
+    margin: 1rem 0;
+  }
+  
+  .route-line::before,
+  .route-line::after {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .route-line::before {
+    top: 0;
+  }
+  
+  .route-line::after {
+    top: auto;
+    bottom: 0;
+  }
+  
+  .train-footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .booking-header {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  
+  .booking-train {
+    flex-direction: column;
+  }
+  
+  .booking-footer {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: stretch;
+    text-align: center;
+  }
+  
+  .payment-methods {
+    flex-direction: column;
+  }
+  
+  .slip-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .admin-actions {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .form-container {
+    padding: 1.5rem;
+  }
+  
+  .table-container {
+    margin: 0 -1rem;
+    width: calc(100% + 2rem);
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem;
+  }
+  
+  .dashboard-stats {
+    flex-direction: column;
+  }
+  
+  .stat-card {
+    width: 100%;
+    flex: auto;
+  }
+  
+  .hero {
+    min-height: 300px;
+    padding: 2rem 1rem;
+  }
+  
+  .hero-title {
+    font-size: 1.7rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 0.9rem;
+  }
+  
+  .detail-item {
+    flex: 100%;
+  }
+  
+  .booking-slip {
+    padding: 1.5rem;
+  }
+  
+  .watermark {
+    font-size: 5rem;
+  }
+  
+  .admin-header {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  /* Additional responsive styles for the original project */
+  .tin-container, .tin-container2 {
+    max-width: 95%;
+    padding: 1rem;
+  }
+}
+
+/* Print styles for booking slip */
+@media print {
+  body {
+    background-color: white;
+  }
+  
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+  
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+  
+  .booking-slip {
+    box-shadow: none;
+    padding: 0;
+    max-width: 100%;
+  }
+  
+  .slip-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .watermark {
+    opacity: 0.05;
+  }
+}

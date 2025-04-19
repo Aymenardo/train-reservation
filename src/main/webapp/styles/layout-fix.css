@@ -1,0 +1,77 @@
+/* Layout fixes for Railway Reservation System */
+
+/* Fix for header positioning */
+header {
+  position: relative;  /* Change from sticky to relative */
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+/* Fix overall body layout */
+body {
+  display: block;  /* Override the flex display from original style */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+/* Container adjustments */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Hero section fixes */
+.hero {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Override the original body layout */
+body.enhanced-ui {
+  display: block;
+  height: auto;
+  align-items: normal;
+  justify-content: normal;
+  flex-direction: column;
+}
+
+/* Fix search box positioning */
+.search-box {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Footer fixes */
+footer {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+/* Make sure all sections are visible */
+.section {
+  padding: 2rem 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Fix navbar for mobile */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+  
+  .menu-toggle {
+    top: 1rem;
+    right: 1rem;
+  }
+}
