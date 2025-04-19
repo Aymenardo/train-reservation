@@ -10,18 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bb54c89-fdce-474a-b6f6-f21e84403d6a" name=" 22-Dec-2023" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/291e368d-e7a6-4cb3-a200-7aac43b4eb31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/291e368d-e7a6-4cb3-a200-7aac43b4eb31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hibernate/services/SendEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hibernate/services/SendEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/searchPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/searchPage.jsp" afterDir="false" />
-    </list>
-    <list id="f829220c-4237-411a-8b91-0d49d25fd4d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <list id="f829220c-4237-411a-8b91-0d49d25fd4d1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -334,7 +325,7 @@
       <workItem from="1703435301883" duration="5058000" />
       <workItem from="1703470774806" duration="7244000" />
       <workItem from="1745055605001" duration="2569000" />
-      <workItem from="1745066976909" duration="4843000" />
+      <workItem from="1745066976909" duration="6437000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <option name="createBranch" value="false" />
