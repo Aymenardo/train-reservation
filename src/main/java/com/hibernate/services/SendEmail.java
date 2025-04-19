@@ -20,8 +20,8 @@ public class SendEmail {
 
     public void sendVerificationOTP(String OPT ,String toEmail) {
 
-        String fromEmail = "tineshsakthir@drngpit.ac.in";
-        String password = "Aadhivkumaran";
+        String fromEmail = "aymen.ard03@gmail.com";
+        String password = "etih lnym lmtw baiv";
         String subject = "OTP Verification";
         String messageBody = "Your OTP is: " + OPT;
         sendEmail(fromEmail, password, toEmail, subject, messageBody);

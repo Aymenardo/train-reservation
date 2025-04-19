@@ -33,24 +33,20 @@
         <label for="trainSourceStation" class=" elements form-label text-white text-uppercase">Select Source Station:</label>
         <select id="trainSourceStation" name="trainSourceStation" class="form-control  elements">
 
-            <option value="Coimbatore">Coimbatore</option>
-            <option value="Delhi">Delhi</option>
-            <option value="Bangalore">Bangalore</option>
-            <option value="Kolkata">Kolkata</option>
-            <option value="Ahmedabad">Ahmedabad</option>
-            <option value="Madurai">Madurai</option>
-            <option value="Tiruchirappalli">Tiruchirappalli</option>
-            <option value="Dindigul">Dindigul</option>
-            <option value="Tirunelveli">Tirunelveli</option>
-            <option value="Erode">Erode</option>
-            <option value="Rameswaram">Rameswaram</option>
-            <option value="Thanjavur">Thanjavur</option>
-            <option value="Kanyakumari">Kanyakumari</option>
-            <option value="Tirupati">Tirupati</option>
-            <option value="Mysuru">Mysuru</option>
-            <option value="Jaipur">Jaipur</option>
-            <option value="Kolkata">Kolkata</option>
-            <option value="Ahmedabad">Ahmedabad</option>
+            <option value="casablanca">casablanca</option>
+            <option value="rabat">rabat</option>
+            <option value="merrakch">merrakch</option>
+            <option value="mohammedia">mohammedia</option>
+            <option value="safi">safi</option>
+            <option value="agadir">agadir</option>
+            <option value="tetouan">tetouan</option>
+            <option value="tngier">tngier</option>
+            <option value="fes">fes</option>
+            <option value="meknes">meknes</option>
+            <option value="al jadida">al jadida</option>
+            <option value="tata">tata</option>
+            <option value="ben gguerir">ben gguerir</option>
+
         </select>
 
         <br>
