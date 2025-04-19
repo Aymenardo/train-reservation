@@ -10,23 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bb54c89-fdce-474a-b6f6-f21e84403d6a" name=" 22-Dec-2023" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/train-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/enhanced-script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/enhanced-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/layout-fix.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hibernate/dao/DAOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pnrFound.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pnrFound.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pnrNotFound.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pnrNotFound.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/searchPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/searchPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/seatList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/seatList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ticketBookingNotSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ticketBookingNotSuccess.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ticketBookingSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ticketBookingSuccess.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/trainsList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/trainsList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <list id="f829220c-4237-411a-8b91-0d49d25fd4d1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,18 +25,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -76,10 +65,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.DAOTest.executor": "Run",
+    "JUnit.DAOTest.testGetUser.executor": "Run",
+    "JUnit.UtilsTest.executor": "Run",
+    "JUnit.UtilsTest.testIsEmpty.executor": "Run",
     "JavaScript Debug.cancellationResult.jsp.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.index.jsp (1).executor": "Run",
     "JavaScript Debug.index.jsp.executor": "Run",
     "JavaScript Debug.searchPage.jsp.executor": "Run",
+    "Maven.TrainTicketReservationSystem [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -89,8 +84,10 @@
     "Tomcat Server.initilze.executor": "Run",
     "Tomcat Server.login.jsp.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "feature",
+    "git-widget-placeholder": "develop",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/java project/Railway-Reservation-System-Maven-Web-Project/src/main/webapp",
@@ -99,7 +96,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "tasks.timeTracking",
@@ -121,9 +118,67 @@
       <recent name="F:\Codecasa Projects\TrainTicketReservationSystem\src\main\java\com\hibernate\test" />
       <recent name="F:\Codecasa Projects\TrainTicketReservationSystem\src\main\java\com\hibernate\messageApi" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.hibernate.dao" />
+      <recent name="" />
+      <recent name="com.hibernate.services" />
+    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.login.jsp (1)">
-    <configuration name="index.jsp (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/TrainTicketReservationSystem_war_exploded/index.jsp">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="DAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TrainTicketReservationSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hibernate.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hibernate.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.dao.DAOTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DAOTest.testGetUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TrainTicketReservationSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hibernate.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hibernate.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.hibernate.dao.DAOTest" />
+      <option name="METHOD_NAME" value="testGetUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TrainTicketReservationSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilsTest.testIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TrainTicketReservationSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UtilsTest" />
+      <option name="METHOD_NAME" value="testIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Railway-Reservation-System-Maven-Web-Project/TrainTicketReservationSystem/target/site/jacoco/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Unnamed" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
@@ -162,84 +217,6 @@
       </QsMavenRunConfiguration>
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Error.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 11.0.5" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Error.jsp" />
-      <deployment>
-        <artifact name="TrainTicketReservationSystem:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/TrainTicketReservationSystem_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="2603f3ed-5090-413d-81a1-4c18e7793fed" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="TrainTicketReservationSystem:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 11.0.5" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
-      <deployment>
-        <artifact name="TrainTicketReservationSystem:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/TrainTicketReservationSystem_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="bebd33fb-00b1-42be-9062-c9da84f7b76c" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="TrainTicketReservationSystem:war exploded" />
-        </option>
       </method>
     </configuration>
     <configuration name="initilze" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.5" ALTERNATIVE_JRE_ENABLED="false">
@@ -330,100 +307,22 @@
         </option>
       </method>
     </configuration>
-    <configuration name="login.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 11.0.5" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login.jsp" />
-      <deployment>
-        <artifact name="TrainTicketReservationSystem:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/TrainTicketReservationSystem_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="c958cdbf-27b1-45a7-aef4-d4d857f1724f" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="TrainTicketReservationSystem:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="login.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 11.0.5" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login.jsp" />
-      <deployment>
-        <artifact name="TrainTicketReservationSystem:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/TrainTicketReservationSystem_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="ed8908a3-2a39-4321-bb02-7b7feb87ed5f" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="TrainTicketReservationSystem:war exploded" />
-        </option>
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.index.jsp (1)" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JUnit.DAOTest" />
+      <item itemvalue="JUnit.DAOTest.testGetUser" />
+      <item itemvalue="JUnit.UtilsTest" />
+      <item itemvalue="JUnit.UtilsTest.testIsEmpty" />
       <item itemvalue="Quarkus.Unnamed" />
       <item itemvalue="Tomcat Server.initilze" />
-      <item itemvalue="Tomcat Server.Error.jsp" />
-      <item itemvalue="Tomcat Server.index.jsp" />
-      <item itemvalue="Tomcat Server.login.jsp" />
-      <item itemvalue="Tomcat Server.login.jsp (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Tomcat Server.login.jsp (1)" />
-        <item itemvalue="Tomcat Server.login.jsp" />
-        <item itemvalue="Tomcat Server.Error.jsp" />
-        <item itemvalue="JavaScript Debug.index.jsp (1)" />
-        <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JUnit.DAOTest" />
+        <item itemvalue="JUnit.DAOTest.testGetUser" />
+        <item itemvalue="JUnit.UtilsTest" />
+        <item itemvalue="JUnit.UtilsTest.testIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -485,5 +384,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/UtilsTest.java</url>
+          <line>6</line>
+          <properties class="UtilsTest" method="testIsEmpty">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
