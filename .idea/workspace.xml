@@ -21,12 +21,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
@@ -60,8 +66,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.DAOTest.executor": "Run",
+    "JUnit.DAOTest.testGetUser.executor": "Run",
+    "JUnit.UtilsTest.executor": "Run",
+    "JUnit.UtilsTest.testIsEmpty.executor": "Run",
     "JavaScript Debug.cancellationResult.jsp.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.index.jsp (1).executor": "Run",
     "JavaScript Debug.index.jsp.executor": "Run",
     "JavaScript Debug.searchPage.jsp.executor": "Run",
     "Maven.TrainTicketReservationSystem [test].executor": "Run",
@@ -69,19 +80,24 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Error.jsp.executor": "Run",
+    "Tomcat Server.index.jsp.executor": "Run",
     "Tomcat Server.initilze.executor": "Run",
+    "Tomcat Server.login.jsp.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/Codecasa Projects/TrainTicketReservationSystem/src/main/webapp",
+    "last_opened_file_path": "D:/java project/Railway-Reservation-System-Maven-Web-Project/src/main/webapp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "tasks.timeTracking",
@@ -90,13 +106,26 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java project\Railway-Reservation-System-Maven-Web-Project\src\main\webapp" />
+      <recent name="D:\java project\Railway-Reservation-System-Maven-Web-Project\src\main\webapp\styles" />
+      <recent name="D:\java project\Railway-Reservation-System-Maven-Web-Project\src\main\webapp\js" />
+      <recent name="D:\java project\Railway-Reservation-System-Maven-Web-Project\src\main\webapp\assets" />
       <recent name="F:\Codecasa Projects\TrainTicketReservationSystem\src\main\webapp" />
-      <recent name="F:\Codecasa Projects\TrainTicketReservationSystem\src\main\java\com\hibernate\staticFiles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java project\Railway-Reservation-System-Maven-Web-Project\src\main\webapp\assets" />
+      <recent name="D:\java project\Railway-Reservation-System-Maven-Web-Project\src\main\webapp" />
       <recent name="F:\Codecasa Projects\TrainTicketReservationSystem\src\main\webapp" />
       <recent name="F:\Codecasa Projects\TrainTicketReservationSystem\src\main\java\com\hibernate\test" />
       <recent name="F:\Codecasa Projects\TrainTicketReservationSystem\src\main\java\com\hibernate\messageApi" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.hibernate.dao" />
+      <recent name="" />
+      <recent name="com.hibernate.services" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.login.jsp">
@@ -278,10 +307,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.cancellationResult.jsp" />
       <item itemvalue="JavaScript Debug.index.jsp" />
       <item itemvalue="JavaScript Debug.searchPage.jsp" />
+      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Quarkus.Unnamed" />
       <item itemvalue="Tomcat Server.initilze" />
       <item itemvalue="Tomcat Server.login.jsp" />
@@ -289,10 +318,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Tomcat Server.login.jsp" />
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.searchPage.jsp" />
-        <item itemvalue="JavaScript Debug.cancellationResult.jsp" />
         <item itemvalue="JavaScript Debug.index.jsp" />
+        <item itemvalue="JavaScript Debug.cancellationResult.jsp" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -343,8 +372,8 @@
       <workItem from="1703435301883" duration="5058000" />
       <workItem from="1703470774806" duration="7244000" />
       <workItem from="1745055605001" duration="2569000" />
-      <workItem from="1745066976909" duration="6437000" />
-      <workItem from="1745150476697" duration="3829000" />
+      <workItem from="1745066976909" duration="12145000" />
+      <workItem from="1745168927916" duration="2209000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <option name="createBranch" value="false" />
