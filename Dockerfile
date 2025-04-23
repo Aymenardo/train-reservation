@@ -1,5 +1,5 @@
 # Étape 1 : Construire l'application avec Maven
-FROM maven:3.9.9-openjdk-17 AS builder
+FROM maven:3.8.1-openjdk-17 AS builder
 WORKDIR /app
 COPY . .
 RUN mvn clean package
