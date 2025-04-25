@@ -38,7 +38,7 @@ pipeline {
         }
         stage('Build Docker Image') {
         steps {
-        bat "curl -u admin:your-nexus-password -O http://localhost:8083/repository/train-reservation-releases/com/aymenardo/train-reservation/${ARTIFACT_VERSION}/train-reservation-${ARTIFACT_VERSION}.war"
+        bat "curl -u admin:ardouni2003 -O http://localhost:8083/repository/train-reservation-releases/com/aymenardo/train-reservation/${ARTIFACT_VERSION}/train-reservation-${ARTIFACT_VERSION}.war"
         bat "move train-reservation-${ARTIFACT_VERSION}.war target/TrainTicketReservationSystem.war"
         bat "docker build -t ${IMAGE_NAME} ."
             }
