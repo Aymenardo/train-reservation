@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         maven 'Maven 3.9.9'
-        jdk 'Java 17' // Updated to Java 17 for consistency with Dockerfile and pom.xml
+        jdk 'Java 21' // Updated to Java 17 for consistency with Dockerfile and pom.xml
     }
     environment {
         IMAGE_NAME = "aymenardo/train-reservation:${BUILD_NUMBER}"
