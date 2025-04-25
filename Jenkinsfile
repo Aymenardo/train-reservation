@@ -33,7 +33,9 @@ pipeline {
         }
        stage('Deploy to Nexus') {
             steps {
-                bat "mvn deploy:deploy-file -DgroupId=com.aymenardo -DartifactId=train-reservation -Dversion=${ARTIFACT_VERSION} -Dpackaging=war -Dfile=target/TrainTicketReservationSystem.war -DrepositoryId=nexus-releases -Durl=http://localhost:8082/repository/train-reservation-releases/"
+                withCredentials([usernamePassword(credentialsId: 'nexus-credentials', usernameVariable: 'NEXUS_USERNAME', passwordVariable: 'NEXUS_PASSWORD')]) {
+                    bat 'mvn deploy'
+                }
             }
         }
         stage('Build Docker Image') {
