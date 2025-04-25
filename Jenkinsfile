@@ -32,17 +32,15 @@ pipeline {
             }
         }
         stage('Deploy to Nexus') {
-            steps {
-                bat "mvn deploy:deploy-file -DgroupId=com.aymenardo -DartifactId=train-reservation -Dversion=${ARTIFACT_VERSION} -Dpackaging=war -Dfile=target/TrainTicketReservationSystem.war -DrepositoryId=nexus-releases -Durl=http://localhost:8082/repository/train-reservation-releases/"
+        steps {
+        bat "mvn -s settings.xml deploy:deploy-file -DgroupId=com.aymenardo -DartifactId=train-reservation -Dversion=${ARTIFACT_VERSION} -Dpackaging=war -Dfile=target/TrainTicketReservationSystem.war -DrepositoryId=nexus-releases -Durl=http://localhost:8083/repository/train-reservation-releases/"
             }
         }
         stage('Build Docker Image') {
-            steps {
-                // Download the artifact from Nexus
-                bat "curl -u admin:ardouni2003 -O http://localhost:8082/repository/train-reservation-releases/com/aymenardo/train-reservation/${ARTIFACT_VERSION}/train-reservation-${ARTIFACT_VERSION}.war"
-                // Move the downloaded .war file to the expected location
-                bat "move train-reservation-${ARTIFACT_VERSION}.war target/TrainTicketReservationSystem.war"
-                bat "docker build -t ${IMAGE_NAME} ."
+        steps {
+        bat "curl -u admin:your-nexus-password -O http://localhost:8083/repository/train-reservation-releases/com/aymenardo/train-reservation/${ARTIFACT_VERSION}/train-reservation-${ARTIFACT_VERSION}.war"
+        bat "move train-reservation-${ARTIFACT_VERSION}.war target/TrainTicketReservationSystem.war"
+        bat "docker build -t ${IMAGE_NAME} ."
             }
         }
         stage('Login to Docker Hub') {
